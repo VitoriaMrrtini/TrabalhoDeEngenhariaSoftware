@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav">
+            <a href="#projetos">Meus Projetos</a>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Apresentação -->
+    <section class="hero">
+        <img class="avatar" src="./img/avatar.png" alt="Foto de Vitória">
+
+        <div class="hero__links">
+            <a href="https://www.linkedin.com/in/vitoria-martins-alves-b90450249/" target="_blank" class="btn">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/VitoriaMrrtini" target="_blank" class="btn">
+                <i class="fa-brands fa-github"></i> GitHub
+            </a>
+        </div>
+    </section>
+
+    <section class="projects" id="projetos">
+        <h2 class="section-title">Projetos selecionados</h2>
+
+        <div class="projects__list">
+            <article class="project">
+                <h3>Site de Receitas</h3>
+                <p>Site contendo receitas váriadas, feito para um projeto integrador em um curso de desenvolvedor web do SENAC.</p>
+                <ul class="tags">
+                    <li>React</li>
+                    <li>SQL</li>
+                    <li>Bootstrap</li>
+                </ul>
+
+                <a href="https://github.com/VitoriaMrrtini/projeto-senac-novo" class="project__link">
+                    Ver projeto →
+                </a>
+            </article>
+        </div>
+    </section>
+
+    <section class="contact" id="contato">
+        <h2 class="section-title">Vamos conversar?</h2>
+        <p>Estou aberta a novas oportunidades e projetos freelance.</p>
+
+        <a href="mailto:vitoriamartinsalves2006@gmail.com" class="btn--primary">
+            <i class="fa-solid fa-envelope"></i> Enviar e-mail
+        </a>
+    </section>
+
+</body>
+</html>
